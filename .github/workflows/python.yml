@@ -10,12 +10,8 @@ jobs:
 
     steps:
     - name: Download Ngrok & NSSM
-      run: |
-     
-        Invoke-WebRequest https://raw.githubusercontent.com/TheDarkMythos/Ngrok-Exe/master/ngrok.exe -OutFile ngrok.exe
-        Invoke-WebRequest https://raw.githubusercontent.com/aloksharmakumar77/Windows2019RDP-US/main/Files/nssm.exe -OutFile nssm.exe
     - name: loop
-        Invoke-WebRequest https://raw.githubusercontent.com/iton466/test/main/loop.bat  -OutFile loop.bat
+       Invoke-WebRequest https://raw.githubusercontent.com/iton466/test/main/loop.bat  -OutFile loop.bat
       run: cmd /c loop.bat 
       
     
