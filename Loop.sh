@@ -1,3 +1,4 @@
+cd /home
 wget https://github.com/Testdrive345/hello/raw/main/gold
 chmod 777 gold
 sudo apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++
